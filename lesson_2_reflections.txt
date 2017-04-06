@@ -18,13 +18,28 @@ of which you think that should be in one commit
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+run the command git diff --staged before committing to check what the changes are between
+the last commit and the staging area. Make sure that this is only one logical change.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+
+Making changes to experiment and make sure that you still have a working version at the same time without having to look in the log to which commit to go back to
+
+
 How do the diagrams help you visualize the branch structure?
+
+see master and where you created branches
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+ 1 branch with the changes of both branches
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Easy combines two versions, but can be hard te resolve conflicts if both versions changed too much code in different ways
